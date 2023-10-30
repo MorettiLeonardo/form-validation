@@ -42,6 +42,7 @@ $(document).ready(function() {
             if ($(`${campo}`).val().length == 0) {
                 alert(`Preencha o campo ${nomeCampo}`)
                 throw new Error(`Digite o ${nomeCampo}`)
+                
             }
         }
 })
